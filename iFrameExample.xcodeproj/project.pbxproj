@@ -188,18 +188,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "David Fekke";
 				TargetAttributes = {
 					B2BEA81E1D36A31D0001EA7B = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GB3WBXD8F8;
+						DevelopmentTeamName = "Swyft Technology, LLC";
+						LastSwiftMigration = 0800;
 					};
 					B2BEA8321D36A31D0001EA7B = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = B2BEA81E1D36A31D0001EA7B;
 					};
 					B2BEA83D1D36A31D0001EA7B = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = B2BEA81E1D36A31D0001EA7B;
 					};
 				};
@@ -405,6 +410,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swyftmobile.iFrameExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -416,6 +422,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swyftmobile.iFrameExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -427,6 +435,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swyftmobile.iFrameExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iFrameExample.app/iFrameExample";
 			};
 			name = Debug;
@@ -439,6 +448,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swyftmobile.iFrameExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iFrameExample.app/iFrameExample";
 			};
 			name = Release;
@@ -450,6 +461,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swyftmobile.iFrameExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = iFrameExample;
 			};
 			name = Debug;
@@ -461,6 +473,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swyftmobile.iFrameExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = iFrameExample;
 			};
 			name = Release;
@@ -484,6 +498,7 @@
 				B2BEA8491D36A31D0001EA7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2BEA84A1D36A31D0001EA7B /* Build configuration list for PBXNativeTarget "iFrameExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +507,7 @@
 				B2BEA84C1D36A31D0001EA7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2BEA84D1D36A31D0001EA7B /* Build configuration list for PBXNativeTarget "iFrameExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +516,7 @@
 				B2BEA84F1D36A31D0001EA7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
